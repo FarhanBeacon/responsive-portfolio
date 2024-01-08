@@ -1,0 +1,324 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* Navigation And Header Styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px;
+}
+
+.color-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #fff;
+    padding: 18px 35px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FD6E0A;
+}
+
+/* banner style */
+
+.banner {
+    margin: 0px 38px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Main Section Style */
+main {
+    margin: 130px 230px;
+}
+
+.about-style {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 131px 157px;
+}
+
+.about-h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-p {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-ul li {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-ul {
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.about-ul li>span {
+    color: var(--Dark-03, #757575);
+}
+
+/* What I Do section */
+
+.i-do-title {
+    text-align: center;
+    margin: 130px 0px 30px 0px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.i-do-description {
+    margin: 0px 116px 50px 116px;
+    text-align: center;
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+}
+
+/* My Skills Styles */
+.my-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    margin-right: 40px;
+    padding: 30px 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 3px 3px 3px 3px lightgrey
+}
+
+.skills-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.skills-description {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+}
+
+.skills>img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+/* Resume Style */
+
+.resume .title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 130px 0px 113px 0px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-title {
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.eduex-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--Dark-02, #474747);
+    margin: 30px 0px 10px 0px;
+}
+
+.eduex-sub-title {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.eduex-des {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-right: 60px;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Contract Styles */
+.contract {
+    display: flex;
+    gap: 117px;
+    padding: 130px 230px;
+    text-align: left;
+    background: #FFF8F3;
+}
+
+.contact-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contract input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.contract p {
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.contract img {
+    margin-right: 24px;
+}
+
+.contract a {
+    text-decoration: none;
+}
+
+.contract input[type='text'],
+input[type='email'],
+textarea {
+    font-size: 16px;
+    width: 420px;
+    padding: 18px 0px 18px 30px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+}
+
+.contract input[type='text'],
+input[type='email'] {
+    height: 30px;
+}
+
+form input[type='submit'] {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        margin: 0px;
+    }
+    
+    nav {
+        padding: 10px 10px;
+    }
+
+    nav ul li {
+        margin: 0px 0px 0px 5px;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+
+    .banner img {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .my-skills, .resume-content, .contract{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+
+    .about-style {
+        padding: 10px 20px;
+    }
+
+    .about-ul {
+        padding-left: 0px;
+        flex-wrap: wrap;
+    }
+
+    .i-do-description {
+        margin: 10px 20px;
+    }
+
+    .skills {
+        margin: 0px;
+    } 
+
+    .contract {
+        margin-top: 30px;
+    }
+    .contract input[type='text'], input[type='email'], textarea {
+        width: 305px;
+    }
+}
